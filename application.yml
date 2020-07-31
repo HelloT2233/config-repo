@@ -1,0 +1,11 @@
+# 日志级别调整
+logger:
+  level:
+    org.springframework: DEBUG
+    
+# 开放所有Actuator端点  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
